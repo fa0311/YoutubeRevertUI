@@ -1,6 +1,6 @@
 # YoutubeRevertUI
 
-Revert Youtube UI back to October 2022 onwards.
+Revert Youtube UI back.
 
 ## Install
 
