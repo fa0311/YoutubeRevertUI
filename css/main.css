@@ -1,0 +1,81 @@
+/* thumbnail */
+ytd-thumbnail .ytd-thumbnail,
+ytd-thumbnail:before {
+    border-radius: 0 !important;
+}
+
+/* tag */
+yt-chip-cloud-chip-renderer {
+    border-radius: 16px !important;
+
+}
+
+/* playlist */
+ytd-playlist-panel-renderer #container.ytd-playlist-panel-renderer {
+    border-radius: 0px !important;
+
+}
+
+/* searchbox */
+
+ytd-searchbox button,
+ytd-searchbox #container {
+    border-radius: 0 !important;
+}
+
+/* description */
+
+#bottom-row #description {
+    margin-top: 0px;
+}
+
+ytd-watch-metadata #description {
+    background-color: #ffffff00 !important;
+}
+
+yt-interaction {
+    background-color: #ffffff00 !important;
+
+}
+
+/* description icon */
+.yt-spec-button-shape-next--mono {
+    background-color: #ffffff00 !important;
+    border-radius: 16px !important;
+    padding: 12px !important;
+}
+
+.yt-spec-button-shape-next--size-m::after {
+    background-color: #ffffff00 !important;
+    display: none !important;
+}
+
+ytd-menu-renderer {
+    max-width: 393px;
+    position: absolute;
+    right: 0px;
+}
+
+.yt-spec-touch-feedback-shape--down {
+    background-color: #ffffff00 !important;
+}
+
+.yt-spec-button-shape-next--segmented-end {
+    padding: 6px 6px 6px 8px !important;
+    margin-left: 4px !important;
+    width: 32px !important;
+}
+
+/* description subscription */
+
+.yt-spec-button-shape-next--filled {
+    background-color: #c4302b !important;
+    border-radius: 3px !important;
+}
+
+/*
+:root {
+    --yt-spec-badge-chip-background: #ffffff00 !important;
+    --yt-spec-button-chip-background-hover: #ffffff00 !important;
+}
+*/

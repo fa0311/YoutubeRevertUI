@@ -1,0 +1,19 @@
+{
+    "name": "YoutubeRevertUI",
+    "description": "Revert Youtube UI back",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "html/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "css": [
+                "css/main.css"
+            ]
+        }
+    ]
+}
