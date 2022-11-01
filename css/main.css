@@ -41,7 +41,7 @@ yt-interaction {
 /* description icon */
 .yt-spec-button-shape-next--mono {
     background-color: #ffffff00 !important;
-    border-radius: 16px !important;
+    border-radius: 8px !important;
     padding: 12px !important;
 }
 
@@ -50,10 +50,10 @@ yt-interaction {
     display: none !important;
 }
 
-ytd-menu-renderer {
-    max-width: 393px;
-    position: absolute;
-    right: 0px;
+ytd-menu-renderer.style-scope.ytd-watch-metadata {
+    max-width: 393px !important;
+    position: relative !important;
+    right: 0px !important;
 }
 
 .yt-spec-touch-feedback-shape--down {
@@ -61,17 +61,21 @@ ytd-menu-renderer {
 }
 
 .yt-spec-button-shape-next--segmented-end {
-    padding: 6px 6px 6px 8px !important;
     margin-left: 4px !important;
     width: 32px !important;
 }
 
 /* description subscription */
 
-.yt-spec-button-shape-next--filled {
-    background-color: #c4302b !important;
+ytd-subscribe-button-renderer .yt-spec-touch-feedback-shape {
+    background-color: #00000010 !important;
     border-radius: 3px !important;
 }
+
+ytd-subscribe-button-renderer .yt-spec-button-shape-next--filled {
+    background-color: #c4302b !important;
+}
+
 
 /*
 :root {
